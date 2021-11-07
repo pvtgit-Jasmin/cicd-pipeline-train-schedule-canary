@@ -7,9 +7,10 @@ spec:
   selector:
     app: train-schedule
   ports:
-  - protocol: TCP
+  - pprotocol: TCP
     port: 8080
-    nodePort: 8080
+    targetPort: 8080
+    nodePort: 30101
 
 ---
 
